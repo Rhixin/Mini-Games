@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+  background-color: #5993f7;
+}
+
+.game1 {
+  position: absolute;
+  background-color: #ffffff;
+  height: 250px;
+  width: 300px;
+  border: 10px solid;
+  border-radius: 10%;
+  border-color: #0f2352;
+}
+
+.title1 {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.game2 {
+  position: absolute;
+  left: 365px;
+  background-color: #cdd5e9;
+  height: 250px;
+  width: 300px;
+  border: 10px solid;
+  border-color: #0f2352;
+  border-radius: 10%;
+}
+
+.title2 {
+  position: absolute;
+  text-align: center;
+  left: 35px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.game3 {
+  position: absolute;
+  left: 720px;
+  background-color: #cdd5e9;
+  height: 250px;
+  width: 300px;
+  border: 10px solid;
+  border-color: #0f2352;
+  border-radius: 10%;
+}
+
+.title3 {
+  position: absolute;
+  text-align: center;
+  left: 55px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.title4 {
+  position: absolute;
+  text-align: center;
+  left: 68px;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.game4 {
+  position: absolute;
+  left: 1085px;
+  background-color: #cdd5e9;
+  height: 250px;
+  width: 300px;
+  border: 10px solid;
+  border-color: #0f2352;
+  border-radius: 10%;
+}
+
+.game5 {
+  position: absolute;
+  background-color: #cdd5e9;
+  height: 250px;
+  width: 300px;
+  border: 10px solid;
+  border-color: #0f2352;
+  border-radius: 10%;
+  top: 25rem;
+}
+
+.game6 {
+  position: absolute;
+  left: 365px;
+  background-color: #cdd5e9;
+  height: 250px;
+  width: 300px;
+  border-radius: 10%;
+  border: 10px solid;
+  border-color: #0f2352;
+  top: 25rem;
+}
+
+.game7 {
+  position: absolute;
+  left: 720px;
+  background-color: #cdd5e9;
+  height: 250px;
+  width: 300px;
+  border: 10px solid;
+  border-color: #0f2352;
+  border-radius: 10%;
+  top: 25rem;
+}
+
+.game8 {
+  position: absolute;
+  left: 1085px;
+  background-color: #cdd5e9;
+  height: 250px;
+  width: 300px;
+  border: 10px solid;
+  border-color: #0f2352;
+  border-radius: 10%;
+  top: 25rem;
+}
+
+.play1 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 75%;
+
+  left: 34%;
+}
+
+.play2 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+
+  top: 75%;
+  left: 34%;
+}
+
+.play3 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+
+  top: 75%;
+  left: 34%;
+}
+
+.play4 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 75%;
+  left: 34%;
+}
+
+.play5 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 75%;
+  left: 34%;
+}
+
+.play6 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 75%;
+  left: 34%;
+}
+
+.play7 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 75%;
+  left: 34%;
+}
+
+.play8 {
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  top: 75%;
+  left: 34%;
+}
+
+.pic2 {
+  border-radius: 6.5%;
+}
+
+.bgpixel {
+  position: absolute;
+}

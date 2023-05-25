@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Games</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>MINI GAMES</h1>
+    <div class="game1">
+      <p class="title1">Rock Paper Scissors</p>
+      <button type="button" class="play1">Play</button>
+      <img
+        class="pic1"
+        src="https://media3.giphy.com/media/elJQRdWlFb8gPN1T9K/giphy.gif?cid=6c09b952e97c573fe25e9b064dc4f0fea20c149395d54743&rid=giphy.gif&ct=s"
+        width="250"
+        height="160"
+      />
+    </div>
+    <div class="game2">
+      <p class="title2">Guess My Number</p>
+      <img
+        class="pic2"
+        src="https://33.media.tumblr.com/8ecf3998e2c1ee932f42b0037d6bfd0f/tumblr_nokyp5dKHa1rb40pco3_540.gif"
+        width="300"
+        height="250"
+      />
+
+      <button type="button" class="play2">Play</button>
+    </div>
+    <div class="game3">
+      <button type="button" class="play3">Play</button>
+      <p class="title3">Just Beat It!</p>
+      <img
+        class="pic2"
+        src="https://media.tenor.com/NjavXXAMRD8AAAAM/sound.gif"
+        width="300"
+        height="250"
+      />
+    </div>
+    <div class="game4">
+      <button type="button" class="play4">Play</button>
+      <p class="title4">Mine Sweeper</p>
+    </div>
+    <div class="game5">
+      <button type="button" class="play5">Play</button>
+    </div>
+    <div class="game6">
+      <button type="button" class="play6">Play</button>
+    </div>
+    <div class="game7">
+      <button type="button" class="play7">Play</button>
+    </div>
+    <div class="game8">
+      <button type="button" class="play8">Play</button>
+    </div>
+
+    <script>
+      let play1 = document.querySelector('.play1');
+      let play2 = document.querySelector('.play2');
+      let play3 = document.querySelector('.play3');
+
+      play1.addEventListener('click', function () {
+        window.location.assign('rps.html');
+      });
+
+      play2.addEventListener('click', function () {
+        window.location.assign('gmn.html');
+      });
+
+      play3.addEventListener('click', function () {
+        window.location.assign('song.html');
+      });
+    </script>
+  </body>
+</html>

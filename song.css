@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: black;
+}
+
+h1 {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.mgabuttons {
+  z-index: 1;
+  height: 36rem;
+  width: 88rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.beat1 {
+  position: absolute;
+  top: 8rem;
+  left: 23rem;
+  height: 8rem;
+  width: 8rem;
+  background-color: #fb0101e0;
+}
+
+.beat2 {
+  position: absolute;
+  top: 8rem;
+  left: 40rem;
+  height: 8rem;
+  width: 8rem;
+  background-color: rgb(11, 9, 85);
+}
+
+.beat3 {
+  position: absolute;
+  top: 8rem;
+  left: 57rem;
+  height: 8rem;
+  width: 8rem;
+  background-color: #54802c;
+}
+
+.beat4 {
+  position: absolute;
+  top: 22rem;
+  left: 57rem;
+  height: 8rem;
+  width: 8rem;
+  background-color: #e2ff06;
+}
+
+.beat5 {
+  position: absolute;
+  top: 22rem;
+  left: 23rem;
+  height: 8rem;
+  width: 8rem;
+  background-color: #a589efe0;
+}
+
+.beat6 {
+  position: absolute;
+  top: 22rem;
+  left: 40rem;
+  height: 8rem;
+  width: 8rem;
+  background-color: #9a6f4f;
+}
+
+.beat1:hover {
+  background-color: #a10606;
+}
+
+.beat2:hover {
+  background-color: #12113b;
+}
+
+.beat3:hover {
+  background-color: #33491d;
+}
+
+.beat4:hover {
+  background-color: #9bb000;
+}
+
+.beat5:hover {
+  background-color: #6751a3e0;
+}
+
+.beat6:hover {
+  background-color: #614530;
+}
+
+.beat1:active {
+  background-color: #750101;
+}
+
+.beat2:active {
+  background-color: #070724;
+}
+
+.beat3:active {
+  background-color: #2c4017;
+}
+
+.beat4:active {
+  background-color: #626e03;
+}
+
+.beat5:active {
+  background-color: #42346be0;
+}
+
+.beat6:active {
+  background-color: #442f1f;
+}
+
+.currentscoretext {
+  position: absolute;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 28px;
+  bottom: 2.4rem;
+  left: 13rem;
+}
+
+.currentscorenumber {
+  position: absolute;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 28px;
+  bottom: 2.4rem;
+  left: 24rem;
+  color: white;
+}
+
+.currentleveltext {
+  position: absolute;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 50px;
+  bottom: 27rem;
+  left: 70rem;
+}
+
+.currentlevelnumber {
+  position: absolute;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 130px;
+  bottom: 10rem;
+  left: 74.5rem;
+  color: #ffff00;
+}
+
+.highscoretext {
+  position: absolute;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 28px;
+  bottom: 2rem;
+  left: 49rem;
+}
+
+.highscorenumber {
+  position: absolute;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 28px;
+  bottom: 2.8rem;
+  left: 79rem;
+  color: white;
+}
+
+.again {
+  position: absolute;
+  bottom: 32.5rem;
+  left: 4rem;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 32px;
+  background-color: rgb(255, 255, 255);
+}
+
+.again:hover {
+  background-color: rgb(184, 170, 170);
+}
+
+.start {
+  position: absolute;
+  bottom: 27rem;
+  left: 4rem;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 32px;
+  background-color: rgb(255, 255, 255);
+}
+
+.start:hover {
+  background-color: rgb(184, 170, 170);
+}
+
+.song1 {
+  position: relative;
+}

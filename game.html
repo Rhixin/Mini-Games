@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors by Rhxn</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <a href="rps.html">
+      <button class="back">
+        <span class="back__text">Back</span>
+        <ion-icon name="exit-outline"></ion-icon>
+      </button>
+    </a>
+    <button type="button" class="again1" id="rocks">
+      Retry
+      <ion-icon name="refresh-outline"></ion-icon>
+    </button>
+    <h1 class="playername">Player</h1>
+    <h1 class="computername">Computer</h1>
+    <div class="playerarena">
+      <img
+        src="https://www.pixel-tones.com/rpsgame/assets/images/srock.png"
+        class="r"
+      />
+      <img
+        src="https://www.pixel-tones.com/rpsgame/assets/images/spaper.png"
+        class="p"
+      />
+      <img
+        src="peacee-removebg-preview.png"
+        width="150"
+        height="150"
+        class="s"
+      />
+    </div>
+    <div class="vss">VS</div>
+    <div class="computerarena">
+      <img
+        src="https://www.pixel-tones.com/rpsgame/assets/images/srock.png"
+        class="r1"
+      />
+      <img
+        src="https://www.pixel-tones.com/rpsgame/assets/images/spaper.png"
+        class="p1"
+      />
+      <img
+        src="peacee-removebg-preview.png"
+        width="150"
+        height="150"
+        class="s1"
+      />
+    </div>
+    <p class="pointscounterplayer1">Points:</p>
+    <p class="pointscountercomputer1">Points:</p>
+    <p class="pointscounterplayer">0</p>
+    <p class="pointscountercomputer">0</p>
+    <div class="choose">
+      <div class="rockk">
+        <button type="button" class="rock" id="rocks">
+          <img
+            src="https://www.pixel-tones.com/rpsgame/assets/images/srock.png"
+          />
+        </button>
+      </div>
+      <div class="paperr">
+        <button class="paper">
+          <img
+            src="https://www.pixel-tones.com/rpsgame/assets/images/spaper.png"
+          />
+        </button>
+      </div>
+      <button class="scissor">
+        <img src="peacee-removebg-preview.png" width="150" height="150" />
+      </button>
+    </div>
+    <script src="/game.js"></script>
+  </body>
+</html>
